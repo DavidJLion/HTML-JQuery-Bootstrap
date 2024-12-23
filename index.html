@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entrenando</title>
+     <!-- Buena practica: colocar el link de bootstrap aca -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+<body>
+
+    <header> 
+        <!----Barra de Navegacion -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+            <!-- Editando href  -->
+              <a class="navbar-brand" href="">Barra de Navegacion</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#habana">La Habana</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#sugerencias">Sugerencias</a>
+                  </li>
+    
+                </ul>
+                
+              </div>
+            </div>
+          </nav>
+    
+    </header>
+
+
+
+    <main class="container"> 
+
+      <section id="inicio">
+        <h1 class="text-center text-primary">Agencia Cubana de Publicidad</h1> 
+        <!-- lorem (parrafo random) -->
+        <p id="2"> Descubre la magia de La Habana: pasea por las encantadoras calles de La Habana Vieja, disfruta de las vistas al mar en el Malecón, vibra al ritmo de la música cubana y saborea un auténtico mojito. Entre historia, cultura y color, cada rincón es una experiencia inolvidable. ¡La Habana te espera! </p>
+      </section>  
+        
+        <br />
+        <br />
+        <br />
+        <br />
+        <!--Carrusel  -->
+        <h1  class="text-center text-primary" id="habana">La Habana en 4 Fotos</h1>
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="./Habana/191625810.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./Habana/ai-generated-cityscape-of-havana-at-sunset-cuba-vibrant-colors-havana-cuba-downtown-skyline-ai-generated-free-photo.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./Habana/gettyimages-660983476-612x612.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="./Habana/istockphoto-1327165984-612x612.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+
+
+        <section id ="sugerencias">
+              <div class="container">
+                  <br />
+                  <br />
+                  <br />
+                  <h4>Sugerencias</h4>
+                  <div class="mb-3">
+                      <label for="email" class="form-label">Correo Electronico</label>
+                      <input type="email" class="form-control" id="email" placeholder="Ingresa tu correo Electronico">
+                  </div>
+                    
+                  <div class="mb-3">
+                      <label for="texto" class="form-label">Mensaje</label>
+                      <textarea class="form-control" id="texto" rows="3" placeholder="Escriba su comentario"></textarea>
+                  </div>
+                    
+                    
+                    <button type="button" class="btn btn-primary"  id="enviar" >Enviar</button>
+              </div>
+        </section>
+    </main>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    
+    
+    <footer class = "bg-dark text-white text-center py-3">
+      © 2024 Mi Sitio Web. Todos los derechos reservados.
+    </footer>
+    
+
+</body>
+</html>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="index.js"></script>
