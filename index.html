@@ -15,7 +15,7 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
             <!-- Editando href  -->
-              <a class="navbar-brand" href="">Barra de Navegacion</a>
+              <a class="navbar-brand" href=""></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -28,7 +28,7 @@
                     <a class="nav-link" href="#habana">La Habana</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#sugerencias">Sugerencias</a>
+                    <a class="nav-link" href="#sugerencias">Quejas o Sugerencias</a>
                   </li>
     
                 </ul>
@@ -44,7 +44,7 @@
     <main class="container"> 
 
       <section id="inicio">
-        <h1 class="text-center text-primary">Agencia Cubana de Publicidad</h1> 
+        <h1 class="text-center ">Agencia Cubana de Publicidad</h1> 
         <!-- lorem (parrafo random) -->
         <p id="2"> Descubre la magia de La Habana: pasea por las encantadoras calles de La Habana Vieja, disfruta de las vistas al mar en el Malecón, vibra al ritmo de la música cubana y saborea un auténtico mojito. Entre historia, cultura y color, cada rincón es una experiencia inolvidable. ¡La Habana te espera! </p>
       </section>  
@@ -87,21 +87,42 @@
                   <br />
                   <br />
                   <br />
-                  <h4>Sugerencias</h4>
+                  <h4>Quejas o sugerencias</h4>
                   <div class="mb-3">
                       <label for="email" class="form-label">Correo Electronico</label>
                       <input type="email" class="form-control" id="email" placeholder="Ingresa tu correo Electronico">
                   </div>
                     
                   <div class="mb-3">
-                      <label for="texto" class="form-label">Mensaje</label>
+                      <label for="texto" class="form-label">Comentario</label>
                       <textarea class="form-control" id="texto" rows="3" placeholder="Escriba su comentario"></textarea>
                   </div>
-                    
-                    
+           
+                  
+                   <!--Menu desplegable-->
+                  <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                      Seleccione opcion
+                    </button>
+                    <br />
+                    <br />
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                      <li><a class="dropdown-item" href="#">Queja</a></li>
+                      <li><a class="dropdown-item" href="#">Sugerencia</a></li>
+                      
+                    </ul>
+                  </div>
+
+
                     <button type="button" class="btn btn-primary"  id="enviar" >Enviar</button>
               </div>
         </section>
+
+       
+
+
+
+
     </main>
     <br />
     <br />
@@ -114,7 +135,7 @@
     
     
     <footer class = "bg-dark text-white text-center py-3">
-      © 2024 Mi Sitio Web. Todos los derechos reservados.
+      © 2024 Agencia Cubana de Publicidad. Todos los derechos reservados.
     </footer>
     
 

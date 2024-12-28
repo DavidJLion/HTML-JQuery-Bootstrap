@@ -12,12 +12,31 @@ $(document).ready(function() {
             email: correo,
             mensaje: texto,
         }
+        
 
-        console.log(obj);
-        alert("Su sugerencia ha sido enviada!!!")
 
-        $("#email").val("");
-        $("#texto").val("");
+        
+
+        if(!correo || !texto) {
+        
+            if(!correo){
+                alert("Inserte su correo!!!")    
+            }else{
+                alert("Inserte su comentario!!!")
+            }
+            
+            
+        }else{
+
+            console.log(obj);
+            alert("Su comentario ha sido enviado!!!")
+            $("#email").val("");
+            $("#texto").val("");
+
+        }    
+       
+
+       
     })
 
    
